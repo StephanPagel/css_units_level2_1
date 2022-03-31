@@ -4,3 +4,50 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    margin: 1em;
+}
+
+/* HEADER */
+
+p {
+    margin: 1em 0;
+}
+
+/* MAIN */
+
+section {
+    border: .1em solid black;
+}
+
+section ul li {
+    font-size: .8em;
+    line-height: 1.5em;
+    list-style: none;
+    padding-inline-start: none;
+}
+
+section ul {
+    padding-inline-start: 1.2em;
+}
+
+section ul li:first-child ul:first-child li:first-child ul:first-child li:before {
+    content: '🐶';
+}
+
+section ul li:first-child ul:first-child li:last-child ul:first-child li:before {
+    content: '🐱';
+}
+
+section ul li:nth-last-of-type(2) ul:first-child li:first-child ul:first-child li:before {
+    content: '🦜';
+}
+
+section ul li:last-child ul:first-child li:first-child ul:first-child li:before {
+    content: '🐍';
+}
+
+section ul li:last-child ul:first-child li:last-child ul:first-child li:before {
+    content: '🦎';
+}
